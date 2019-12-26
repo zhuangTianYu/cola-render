@@ -1,0 +1,49 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  line-height: 1.8;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei";
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color: #333;
+  font-size: 14px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body, ul, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: #333;
+}
+
