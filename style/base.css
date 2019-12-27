@@ -3,6 +3,10 @@
   background-color: #ff4340;
 }
 
+.banner {
+  width: 100%;
+}
+
 /* toast-start */
 .toast__shadow {
   position: fixed;

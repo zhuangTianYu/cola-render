@@ -38,6 +38,7 @@ ul, li {
 }
 
 img {
+  display: block;
   border-style: none;
 }
 
