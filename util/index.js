@@ -7,6 +7,14 @@ const create = (tagName, classList, innerHTML) => {
   return element
 }
 
+const toast = (text, duration = 2000) => {
+  const shadow = create('div', 'toast__shadow')
+  const content = create('div', 'toast__content', text)
+  shadow.appendChild(content)
+  body.appendChild(shadow)
+  setTimeout(() => body.removeChild(shadow), duration)
+}
+
 const windowScrollTo = (targetTop, duration = 100) => {
   console.time('scroll')
   const startTop = window.scrollY

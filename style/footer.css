@@ -25,5 +25,11 @@
   font-size: 14px;
 }
 
+.footer__button.disabled {
+  background-color: #999;
+}
+
+
+
 
 

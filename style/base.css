@@ -3,6 +3,37 @@
   background-color: #ff4340;
 }
 
+/* toast-start */
+.toast__shadow {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.toast__shadow::after {
+  content: '';
+  height: 100%;
+}
+
+.toast__content {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: -160px;
+}
+
+.toast__shadow::after,
+.toast__content {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* toast-end */
+
 
 
 
