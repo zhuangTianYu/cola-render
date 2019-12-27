@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  font-size: 0;
 }
 
 .footer__description,
@@ -14,13 +15,13 @@
   background-color: #fff;
 }
 
-.footer__description {
-  font-size: 0;
-}
-
 .footer__description span {
   display: inline-block;
   vertical-align: middle;
+  font-size: 14px;
+}
+
+.footer__button {
   font-size: 14px;
 }
 
